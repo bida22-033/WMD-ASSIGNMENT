@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WarnerBros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="img/png" href="images/Warner_Bros_logo.trans.png">
+    
+        <script>
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+        menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
+    }
+</script>
+
+    
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <input type="checkbox" class="menu-btn" id="menu-btn" onclick="toggleMenu()">
+            <label for="menu-btn">&#9776;</label>
+            <div class="logo">
+                <img src="images/warner-bros-logo.png" alt="WarnerBros Logo">
+            </div>
+            <button class="search-btn">Search</button>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                    <li><a href="tv shows.html">TV Shows</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="games & apps.html">Games & Apps</a></li>
+                    <li><a href="shop.html">Shops</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="page-title">
+            <h1>Video games</h1>
+        </section>
+
+        <section class="game-list">
+            <div class="game-item">
+                <img src="images/angry birds.jpg" alt="angry birds">
+                <h2>ANGRY BIRDS</h2>
+                <p>Angry Birds is a 2009 casual puzzle video game developed by Finnish video game developer Rovio Entertainment.
+                     Inspired primarily by a sketch of stylized wingless birds, the game was first released for iOS and Maemo devices starting in December 2009</p>
+            </div>
+            <div class="game-item">
+                <img src="images/subway surfers.jpg" alt="subway surfers">
+                <h2>SUBWAY SURFERS</h2>
+                <p>Subway Surfers is an endless runner mobile game which is co-developed by Kiloo and SYBO Games,
+                     private companies based in Denmark. It is available on Android, iOS, HarmonyOS, Kindle, 
+                     and Windows Phone platforms and uses the Unity game engine</p>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="#">Help</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Settings</a>
+          </div>
+          <div class="footer-social-media">
+            <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="#"><img src="images/twiter.png" alt="Twitter"></a>
+            <a href="#"><img src="images/pinterest-logo-p-png-0.png" alt="Pinterest"></a>
+            <a href="#"><img src="images/linkedin-logo-3.png" alt="LinkedIn"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+          </div>
+        </div>
+      </footer>
+     
